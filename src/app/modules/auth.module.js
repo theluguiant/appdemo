@@ -1,7 +1,7 @@
 import { Injector, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';/* tslint:disable */
 import { HttpClientModule } from '@angular/common/http';
 import { NbCardModule, NbCheckboxModule, NbLayoutModule } from '@nebular/theme';
 import { NB_AUTH_FALLBACK_TOKEN, NbAuthService, NbAuthSimpleToken, NbAuthTokenParceler, NbTokenLocalStorage, NbTokenService, NbTokenStorage, } from './services';

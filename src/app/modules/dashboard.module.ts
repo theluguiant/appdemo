@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import { NgxEchartsModule } from 'ngx-echarts';
-
+/* tslint:disable */
 import { ThemeModule } from '../theme-core/@theme/theme.module';
 import { DashboardComponent } from '../components/dashboard/dashboard.component';
 import { StatusCardComponent } from '../theme-core/pages/dashboard/status-card/status-card.component';

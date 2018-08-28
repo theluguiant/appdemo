@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+/* tslint:disable */
 @Component({
     selector: 'ngx-reportcreate',
     templateUrl: './report-create.component.html',

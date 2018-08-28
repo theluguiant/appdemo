@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
-
+/* tslint:disable */
 @Component({
   selector: 'pie-chart',
   template: `

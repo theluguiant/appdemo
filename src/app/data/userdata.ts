@@ -1,7 +1,7 @@
 import { InMemoryDbService } from 'angular-in-memory-web-api';
 
 import { User } from '../models/users';
-
+/* tslint:disable */
 export class Userdata implements InMemoryDbService {
 
     createDb() {

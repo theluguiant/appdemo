@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-
+/* tslint:disable */
 import { ThemeModule } from '../theme-core/@theme/theme.module';
 import { ReportsRoutingModule } from '../routing/report-routing.module';
 import { ReportComponent } from '../components/report/report.component';

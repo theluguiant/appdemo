@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-
+/* tslint:disable */
 @Component({
   selector: 'status-card-custom',
   styleUrls: ['./status-card.component.scss'],

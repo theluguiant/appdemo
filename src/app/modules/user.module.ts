@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 
-
+/* tslint:disable */
 import { ThemeModule } from '../theme-core/@theme/theme.module';
 import { UserRoutingModule } from '../routing/user-routing.module';
 import { UserComponent } from '../components/users/user.component';

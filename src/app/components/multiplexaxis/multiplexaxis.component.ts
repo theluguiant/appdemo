@@ -1,6 +1,6 @@
 import { Component, AfterViewInit, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
-
+/* tslint:disable */
 @Component({
   selector: 'multiple-xaxis',
   template: `

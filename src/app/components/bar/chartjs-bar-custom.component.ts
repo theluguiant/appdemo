@@ -1,6 +1,6 @@
 import { Component, OnDestroy } from '@angular/core';
 import { NbThemeService, NbColorHelper } from '@nebular/theme';
-
+/* tslint:disable */
 @Component({
   selector: 'chartjs-bar-custom',
   templateUrl: './chartjs-bar-custom.component.html',

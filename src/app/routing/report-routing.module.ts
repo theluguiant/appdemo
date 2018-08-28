@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';/* tslint:disable */
 import { Routes, RouterModule } from '@angular/router';
 
 import { ReportComponent } from '../components/report/report.component';

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core';/* tslint:disable */
 
 import { MENU_ITEMS } from './../../config/pages-menu';
 

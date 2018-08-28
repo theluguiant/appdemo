@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-
+/* tslint:disable */
 import { PagesComponent } from './pages.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { PagesRoutingModule } from '../../routing/pages-routing.module';

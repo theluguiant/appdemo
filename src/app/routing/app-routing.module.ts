@@ -1,5 +1,5 @@
-import { ExtraOptions,RouterModule, Routes } from '@angular/router';
-import { ModuleWithProviders, Component } from '@angular/core';
+import { ExtraOptions, RouterModule, Routes } from '@angular/router';
+import { ModuleWithProviders } from '@angular/core';
 import {
   NbAuthComponent,
   NbLoginComponent,
@@ -8,7 +8,7 @@ import {
   NbRequestPasswordComponent,
   NbResetPasswordComponent,
 } from '../theme-core/@theme/auth';
-
+/* tslint:disable */
 const routes: Routes = [
   { path: 'pages', loadChildren: '../app/modules/pages.module#PagesModule' },
   {
@@ -50,4 +50,4 @@ const config: ExtraOptions = {
 };
 
 export const appRoutingProviders: any[] = [];
-export const routing: ModuleWithProviders = RouterModule.forRoot(routes,config);
+export const routing: ModuleWithProviders = RouterModule.forRoot( routes, config);

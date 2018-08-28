@@ -6,7 +6,7 @@ import { PagesRoutingModule } from '../routing/pages-routing.module';
 import { ThemeModule } from '../theme-core/@theme/theme.module';
 import { MiscellaneousModule } from '../components/miscellaneous/miscellaneous.module';
 
-
+/* tslint:disable */
 const PAGES_COMPONENTS = [
   PagesComponent,
 ];

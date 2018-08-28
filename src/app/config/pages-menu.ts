@@ -1,5 +1,5 @@
 import { NbMenuItem } from '@nebular/theme';
-
+/* tslint:disable */
 export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Inicio',
@@ -7,16 +7,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/dashboard',
     home: true,
   },
-/*  {
-    title: 'Informes',
-    icon: 'fa fa-bar-chart-o',
-    children: [
-      {
-        title: 'Descarga de informe',
-        link: '/pages/report/create',
-      }
-    ],
-  },*/
   {
     title: 'Usuarios',
     icon: 'nb-person',
