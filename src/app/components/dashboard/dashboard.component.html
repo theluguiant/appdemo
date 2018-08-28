@@ -1,0 +1,49 @@
+
+  <div class="row">
+    <div class="col-xxxl-3 col-md-6" *ngFor="let statusCard of statusCards">
+      <status-card-custom [title]="statusCard.title"
+                        [type]="statusCard.type" [data]="statusCard.data">
+        <i [ngClass]="statusCard.iconClass"></i>
+      </status-card-custom>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <nb-card>
+        <nb-card-header>Diagrama circular</nb-card-header>
+        <nb-card-body>
+          <pie-chart></pie-chart>
+        </nb-card-body>
+      </nb-card>
+    </div>
+    <div class="col-lg-6">
+      <nb-card>
+        <nb-card-header>Comparativa años anteriores</nb-card-header>
+        <nb-card-body>
+          <multiple-xaxis></multiple-xaxis>
+        </nb-card-body>
+      </nb-card>
+    </div>
+  </div>  
+<div class="row">
+  <div class="col-lg-6">
+    <nb-card>
+      <nb-card-header>Bar</nb-card-header>
+      <nb-card-body>
+        <chartjs-bar-custom></chartjs-bar-custom>
+      </nb-card-body>
+    </nb-card>
+  </div>
+ 
+    
+
+    <div class="col-xxxl-3 col-xxl-4 col-lg-5 col-md-6">
+      <meta-card [chartValue]="72"></meta-card>
+    </div>
+  
+    <div class="col-xxxl-3 col-xxl-4 col-md-5">
+      <ngx-traffic></ngx-traffic>
+    </div>
+
+</div>  
