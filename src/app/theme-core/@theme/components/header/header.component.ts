@@ -3,7 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { NbMenuService, NbSidebarService } from '@nebular/theme';
 import { UserService } from '../../../@core/data/users.service';
 import { AnalyticsService } from '../../../@core/utils/analytics.service';
-
+/*
 @Component({
   selector: 'ngx-header',
   styleUrls: ['./header.component.scss'],
@@ -47,3 +47,4 @@ export class HeaderComponent implements OnInit {
     this.analyticsService.trackEvent('startSearch');
   }
 }
+*/

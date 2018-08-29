@@ -4,7 +4,6 @@ import { NgxEchartsModule } from 'ngx-echarts';
 /* tslint:disable */
 import { ThemeModule } from '../theme-core/@theme/theme.module';
 import { DashboardComponent } from '../components/dashboard/dashboard.component';
-import { StatusCardComponent } from '../theme-core/pages/dashboard/status-card/status-card.component';
 import { ContactsComponent } from '../theme-core/pages/dashboard/contacts/contacts.component';
 import { RoomsComponent } from '../theme-core/pages/dashboard/rooms/rooms.component';
 import { RoomSelectorComponent } from '../theme-core/pages/dashboard/rooms/room-selector/room-selector.component';
@@ -37,8 +36,7 @@ import { StatusCardCustomComponent } from '../components/status-card/status-card
     ChartModule
   ],
   declarations: [
-    DashboardComponent,
-    StatusCardComponent,    
+    DashboardComponent,  
     NewFooterComponent,
     TemperatureDraggerComponent,
     ContactsComponent,
@@ -62,4 +60,4 @@ import { StatusCardCustomComponent } from '../components/status-card/status-card
     StatusCardCustomComponent
   ],
 })
-export class DashboardModule { }
+export class DashboardCustomModule { }

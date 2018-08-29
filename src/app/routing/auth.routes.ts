@@ -8,7 +8,7 @@ import {
   } from '../theme-core/@theme/auth';/* tslint:disable */
 export var routes = [
     {
-        path: 'users',
+        path: 'auth',
         component: NbAuthComponent,
         children: [
             {

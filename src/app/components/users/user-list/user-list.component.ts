@@ -31,11 +31,11 @@ export class UserListComponent {
     },
     columns: {
       firstName: {
-        title: 'First Name',
+        title: 'Nombres',
         type: 'string',
       },
       lastName: {
-        title: 'Last Name',
+        title: 'Apellidos',
         type: 'string',
       },
       username: {
@@ -47,7 +47,7 @@ export class UserListComponent {
         type: 'string',
       },
       age: {
-        title: 'Age',
+        title: 'Edad',
         type: 'number',
       },
     },

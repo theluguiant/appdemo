@@ -5,6 +5,8 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { PagesRoutingModule } from '../../routing/pages-routing.module';
 import { ThemeModule } from '../@theme/theme.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
+import { SampleLayoutComponent } from '../@theme/layouts/sample/sample.layout';
+
 
 const PAGES_COMPONENTS = [
   PagesComponent
@@ -19,6 +21,7 @@ const PAGES_COMPONENTS = [
   ],
   declarations: [
     PagesComponent,
+    SampleLayoutComponent
   ],
 })
 export class PagesModule {
