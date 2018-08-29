@@ -31,23 +31,23 @@ export class PieChartComponent implements AfterViewInit, OnDestroy {
         legend: {
           orient: 'vertical',
           left: 'left',
-          data: ['Zona Industrial', 'San Agustín', 'San Andrés', 'San Cayetano', 'La Ferreria'],
+          data: ['Impuesto predial', 'Industria y comercio', 'Licencias de construcción', 'Licencias de transito', 'Otros'],
           textStyle: {
             color: echarts.textColor,
           },
         },
         series: [
           {
-            name: 'Barrio',
+            name: 'Rubros',
             type: 'pie',
             radius: '80%',
             center: ['50%', '50%'],
             data: [
-              { value: 4268956162, name: 'Zona Industrial' },
-              { value: 1768956162, name: 'San Agustín' },
-              { value: 2768956162, name: 'San Andrés' },
-              { value: 768956162, name: 'San Cayetano' },
-              { value: 1768956162, name: 'La Ferreria' },
+              { value: 4268956162, name: 'Impuesto predial' },
+              { value: 1768956162, name: 'Industria y comercio' },
+              { value: 2768956162, name: 'Licencias de construcción' },
+              { value: 768956162, name: 'Licencias de transito' },
+              { value: 1768956162, name: 'Otros' },
               
             ],
             itemStyle: {
